@@ -1,0 +1,67 @@
+
+/* Realizamos el diseño de la tabla principal */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+/* Diseño de los botones */
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+.myButton {
+    box-shadow: 3px 4px 0px 0px #ab1616;
+    background:linear-gradient(to bottom, #ff7aa6 5%, #e33939 100%);
+    background-color:#ff7aa6;
+    border-radius:5px;
+    border:1px solid #c23434;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:12px 44px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #cc5454;
+ }
+    .myButton:hover {
+    background:linear-gradient(to bottom, #e33939 5%, #ff7aa6 100%);
+    background-color:#e33939;
+    }
+    .myButton:active {
+    position:relative;
+    top:1px;
+    } 
+
+
+    
